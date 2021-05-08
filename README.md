@@ -23,7 +23,7 @@
 * log
 
 # Supported Operators
-* * / + -
+* \* / + -
 
 # Features
 * x-axis limits
