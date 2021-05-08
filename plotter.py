@@ -63,7 +63,7 @@ class  MainWidget(QWidget):
         try:
             self.ui.plot_area.canvas.axes.plot(x, eval(f_x))
         except:
-            QMessageBox.warning(self, "Error", " Check your function! \n Make sure you enter only functions in x with parantheses for any argument.") 
+            QMessageBox.warning(self, "Error", " Check your function! \n Make sure you enter only functions in x with parentheses for any argument.") 
         self.ui.plot_area.canvas.draw()
 
 #Part 4: Execution.
