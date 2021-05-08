@@ -67,7 +67,7 @@ class  MainWidget(QWidget):
         self.ui.plot_area.canvas.draw()
 
 #Part 4: Execution.
-#If statement is meant to suppress GUI execution during testing.
+#If statement is to suppress GUI execution during testing.
 if __name__ == '__main__':
     app = QApplication ([]) 
     window = MainWidget () 
